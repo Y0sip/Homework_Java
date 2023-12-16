@@ -35,7 +35,6 @@ public class RectangleAnimation extends JPanel implements ActionListener {
         g.setColor(Color.RED);
         g.fillRect(x, (getHeight() - RECTANGLE_HEIGHT) / 2, RECTANGLE_WIDTH, RECTANGLE_HEIGHT);
     }
-
     @Override
     public void actionPerformed(ActionEvent e) {
         repaint(); // Запрашиваем перерисовку панели для следующего кадра

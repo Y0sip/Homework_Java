@@ -10,7 +10,6 @@ class Employee {
         this.name = name;
         this.salary = salary;
     }
-
     public String getName() {
         return name;
     }
@@ -19,7 +18,6 @@ class Employee {
         return salary;
     }
 }
-
 public class MergeSortEmployees {
     public static void main(String[] args) {
         // Создаем список сотрудников.

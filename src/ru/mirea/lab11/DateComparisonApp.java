@@ -20,7 +20,6 @@ public class DateComparisonApp {
         try {
             // Преобразуем введенный текст в объект Date
             Date userDate = dateFormat.parse(userInput);
-
             // Сравниваем даты
             if (userDate.before(currentDate)) {
                 System.out.println("Введенная дата раньше текущей.");

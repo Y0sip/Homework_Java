@@ -3,7 +3,6 @@ package ru.mirea.lab9;
 class Student {
     private int iDNumber;
     private String name;
-
     public Student(int iDNumber, String name) {
         this.iDNumber = iDNumber;
         this.name = name;
@@ -17,7 +16,6 @@ class Student {
         return name;
     }
 }
-
 public class StudentSortTest {
     public static void main(String[] args) {
         // Создаем массив объектов Student.

@@ -12,7 +12,6 @@ public class Main {
 
         // Сортировка списка людей по убыванию GPA с использованием SortingPeopleByGPA.
         people.sort(new SortingPeopleByGPA());
-
         // Вывод отсортированного списка людей.
         for (Person person : people) {
             System.out.println("Name: " + person.getName() + ", GPA: " + person.getGPA());

@@ -5,7 +5,6 @@ public class TaskAssignment {
     public static void main(String[] args) {
         // Фамилия разработчика
         String developerLastName = "Фамилия Разработчика";
-
         // Дата и время получения задания
         Date dateAssigned = new Date(); // Создаем объект Date, который представляет текущую дату и время
 

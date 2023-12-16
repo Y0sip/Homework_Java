@@ -13,7 +13,6 @@ class People {
         this.name = name;
         this.age = age;
     }
-
     public String getName() {
         return name;
     }
@@ -33,7 +32,6 @@ public class MergePeopleLists {
         List<People> list2 = new ArrayList<>();
         list2.add(new People("Charlie", 21));
         list2.add(new People("David", 19));
-
         // Объединяем два списка в один.
         List<People> mergedList = new ArrayList<>(list1); // Копируем list1 в mergedList
         mergedList.addAll(list2); // Добавляем все элементы из list2 в mergedList

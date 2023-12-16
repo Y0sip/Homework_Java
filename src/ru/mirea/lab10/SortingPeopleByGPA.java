@@ -2,7 +2,6 @@ package ru.mirea.lab10;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Collections;
-
 // Класс Person представляет человека с именем и итоговым баллом (GPA).
 class Person {
     private String name;
@@ -24,7 +23,6 @@ class Person {
         return gpa;
     }
 }
-
 public class SortingPeopleByGPA {
     private ArrayList<Person> people;
 

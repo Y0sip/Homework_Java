@@ -8,7 +8,6 @@ public class EmailValidator {
         // Создаем регулярное выражение для проверки email-адресов
         String regex = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$";
         Pattern pattern = Pattern.compile(regex);
-
         // Проверяем каждый email-адрес
         for (String email : emails) {
             Matcher matcher = pattern.matcher(email);

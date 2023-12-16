@@ -1,7 +1,6 @@
 package ru.mirea.lab9;
 
 import java.util.Comparator;
-
 // Переименованный класс Person представляет человека с именем и итоговым баллом (GPA).
 class Person {
     private String name;
@@ -20,7 +19,6 @@ class Person {
         return gpa;
     }
 }
-
 // Класс SortingPeopleByGPA реализует интерфейс Comparator<Person>,
 // чтобы можно было сравнивать людей по их GPA (итоговым баллам).
 class SortingPeopleByGPA implements Comparator<Person> {

@@ -30,7 +30,6 @@ public class Student {
     public String toString() {
         return "ID: " + id + "\nИмя: " + name + "\nДата рождения: " + dateOfBirth;
     }
-
     public static void main(String[] args) {
         // Пример использования
         Date dateOfBirth = new Date();  // Здесь можно установить конкретную дату рождения
