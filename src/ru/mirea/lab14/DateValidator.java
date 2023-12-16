@@ -8,6 +8,7 @@ public class DateValidator {
         // Создаем регулярное выражение для проверки дат
         String regex = "^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])/(19\\d{2}|[2-9]\\d{3})$";
         Pattern pattern = Pattern.compile(regex);
+
         // Проверяем каждую дату
         for (String date : dates) {
             Matcher matcher = pattern.matcher(date);

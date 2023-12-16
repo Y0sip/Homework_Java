@@ -22,7 +22,9 @@ class Person {
 // Класс SortingPeopleByGPA реализует интерфейс Comparator<Person>,
 // чтобы можно было сравнивать людей по их GPA (итоговым баллам).
 class SortingPeopleByGPA implements Comparator<Person> {
+
     @Override
+
     public int compare(Person person1, Person person2) {
         // Сравниваем людей по убыванию GPA (итоговых баллов).
         // Для убывания возвращаем отрицательное значение, для возрастания - положительное.

@@ -60,6 +60,7 @@ public class Student {
     public static void main(String[] args) {
         // Создаем экземпляр студента с помощью конструктора.
         Student student = new Student("John", "Doe", "Computer Science", 2, "CS101");
+
         // Используем геттеры для получения информации о студенте.
         System.out.println("Student Information:");
         System.out.println("First Name: " + student.getFirstName());

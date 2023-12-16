@@ -11,6 +11,7 @@ public class Product implements Comparable<Product>
         this.name = name;
         this.price = price;
     }
+
     // Геттер для получения имени продукта.
     public String getName() {
         return name;

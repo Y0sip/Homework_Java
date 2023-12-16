@@ -23,7 +23,8 @@ class Person {
         return gpa;
     }
 }
-public class SortingPeopleByGPA {
+public class
+SortingPeopleByGPA {
     private ArrayList<Person> people;
 
     public SortingPeopleByGPA() {

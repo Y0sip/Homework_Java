@@ -18,6 +18,8 @@ class Employee {
         return salary;
     }
 }
+
+
 public class MergeSortEmployees {
     public static void main(String[] args) {
         // Создаем список сотрудников.

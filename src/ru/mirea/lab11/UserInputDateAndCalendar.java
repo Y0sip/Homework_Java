@@ -35,6 +35,7 @@ public class UserInputDateAndCalendar {
 
         scanner.close();
     }
+
     // Метод для создания объекта Date
     private static Date createDate(int year, int month, int dayOfMonth, int hours, int minutes) {
         Calendar calendar = Calendar.getInstance();

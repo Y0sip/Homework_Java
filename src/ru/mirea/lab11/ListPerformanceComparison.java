@@ -27,6 +27,7 @@ public class ListPerformanceComparison {
         endTime = System.nanoTime();
         long linkedListInsertTime = endTime - startTime;
         System.out.println("LinkedList: Время вставки в начало: " + linkedListInsertTime + " наносекунд");
+
         // Измеряем время выполнения операции удаления из середины
         startTime = System.nanoTime();
         for (int i = 0; i < n; i++) {
